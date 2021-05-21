@@ -129,3 +129,9 @@ a {
 a:hover {
   color: var(--orange);
 }
+
+@media screen and (max-width: 605px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
