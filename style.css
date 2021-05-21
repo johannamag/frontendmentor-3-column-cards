@@ -113,3 +113,19 @@ body {
   background-color: var(--dark-cyan);
   color: var(--gray);
 }
+
+.attribution {
+  text-align: center;
+  padding: 20px;
+  color: var(--dark-cyan);
+}
+
+a {
+  text-decoration: none;
+  color: var(--cyan);
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--orange);
+}
